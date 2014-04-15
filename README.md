@@ -1,6 +1,6 @@
 Intro to Programming Concepts (for true beginners)
 ======================================
-
+![Girl Develop It](images/wordmark-tagline-white.png)
 
 ## How to update these slides
 
@@ -42,5 +42,6 @@ When you're ready, commit and push your changes to your repo.
 Don't forget to do a pull request on the upstream repo so we can merge your changes in!
 
 ## Questions?
-[boulder@girldevelopit.com](mailto:boulder@girldevelopit.com)
-[@gdiboulder](http://twitter.com/gdiboulder)
+E-mail us: [boulder@girldevelopit.com](mailto:boulder@girldevelopit.com)
+
+Tweet at us: [@gdiboulder](http://twitter.com/gdiboulder)
