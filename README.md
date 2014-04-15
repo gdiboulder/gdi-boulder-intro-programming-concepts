@@ -1,7 +1,6 @@
-gdi-boulder-intro-programming-concepts
+Intro to Programming Concepts (for true beginners)
 ======================================
 
-Intro to Programming Concepts (for true beginners)
 
 ## How to update these slides
 
@@ -34,5 +33,14 @@ $ git remote add upstream https://github.com/gdiboulder/gdi-boulder-intro-progra
 # Assigns the original repository to a remote called "upstream"
 $ git fetch upstream
 # Pulls in changes not present in your local repository, without modifying your files
+```
 
-You're set!
+## You're set!
+
+When you're ready, commit and push your changes to your repo.
+
+Don't forget to do a pull request on the upstream repo so we can merge your changes in!
+
+## Questions?
+[boulder@girldevelopit.com](mailto:boulder@girldevelopit.com)
+[@gdiboulder](http://twitter.com/gdiboulder)
