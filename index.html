@@ -49,6 +49,7 @@
 				</section>
 				<section>
 					<h3>Class notes</h3>
+					<p>Follow along with the slides at: <a href="http://gdiboulder.github.io/gdi-boulder-intro-programming-concepts/">http://gdiboulder.github.io/gdi-boulder-intro-programming-concepts/</a></p>
 					<p>All class slides are also available on github at <a href="https://github.com/gdiboulder/gdi-boulder-intro-programming-concepts">github.com/gdiboulder/gdi-boulder-intro-programming-concepts</a></p>
 				</section>
 				<section>
@@ -294,8 +295,8 @@
 					<li>Integer variables are used to store positive or negative whole numbers.</li>
 					<li>If you want to store the number of M&Ms that were in the cup to begin with, you would use an integer variable and then give it a value:</li>
 				<pre><code="html">
-					var total_pieces = Integer
-					total_pieces = 12
+var total_pieces = Integer
+total_pieces = 12
 				</code></pre>
 			</section>
 
@@ -305,12 +306,12 @@
 					<li>String variables are used to store text.</li>
 					<li>If you wanted to tell the computer the colors of the M&Ms, you would use string variables:</li>
 				<pre><code="html">
-					var color_1 = String
-					var color_2 = String
-					var color_3 = String
-					color_1 = red
-					color_2 = green
-					color_3 = yellow
+var color_1 = String
+var color_2 = String
+var color_3 = String
+color_1 = red
+color_2 = green
+color_3 = yellow
 				</code></pre>
 			</section>
 
@@ -336,8 +337,8 @@
 					<li>The Boolean would look like this:</li>
 				</ul>
 				<pre><code="html">
-					M&Ms_In_Cup = Boolean
-					M&M_In_Cup = True
+M&Ms_In_Cup = Boolean
+M&M_In_Cup = True
 				</code></pre>
 			</section>
 
@@ -346,7 +347,7 @@
 				<ul>
 					<li>Now that you can store data, you probably want to do something with it.</li>
 					<li>Logical structures provide the framework for using that data to "get stuff done".</li>
-					<li>These structures are consistent across programming languages-- so if you understnad the concepts, you can learn how to represent them in any programming language.</li>
+					<li>These structures are consistent across programming languages-- so if you understand the concepts, you can learn how to represent them in any programming language.</li>
 				</ul>
 			</section>
 
@@ -371,17 +372,17 @@
 				<ul>
 					<li>If there are M&Ms left in your cup, take one out and sort it. If there aren’t any more left, report that there aren't any left.</li>
 				<pre><code="html">
-					Pseudocode:<br>
-					var pieces_in_cup = Integer
-					pieces_in_cup = 12
+Pseudocode:<br>
+var pieces_in_cup = Integer
+pieces_in_cup = 12
 
-					IF total_pieces is not equal to 0
-					  THEN
-						    PRINT ‘’Take an M&M out of the cup.’’
-						    [Put it in the correct pile.]
-						    [Reduce the value of pieces_in_cup by 1.]
-					  ELSE
-						    PRINT ‘’There are no more M&M’s in the cup!’’
+IF total_pieces is not equal to 0
+  THEN
+	    PRINT ‘’Take an M&M out of the cup.’’
+	    [Put it in the correct pile.]
+	    [Reduce the value of pieces_in_cup by 1.]
+  ELSE
+	    PRINT ‘’There are no more M&M’s in the cup!’’
 				</code></pre>
 			</section>
 
@@ -412,13 +413,13 @@
 				<li>That would tell you how many M&Ms you have to sort.</li>
 				<li>Let's say the count was 15 total.</li>
 			<pre><code="html">
-				Pseudocode:<br>
-				For each of my 15 M&Ms, do this procedure:
-				    [Take it out of the cup]
-  				    [Determine what color it is]
-  				    [Put it in the correct pile]
+Pseudocode:<br>
+For each of my 15 M&Ms, do this procedure:
+	[Take it out of the cup]
+	[Determine what color it is]
+	[Put it in the correct pile]
 
-				End
+End
 			</code></pre>
 			</section>
 
@@ -452,18 +453,18 @@
 			<section>
 				<h3>While Loops Pseudocode</h3>
 				<pre><code="html">
-				var candy_in_cup = Boolean
-				candy_in_cup = TRUE
+var candy_in_cup = Boolean
+candy_in_cup = TRUE
 
-				While candy_in_cup = TRUE
-				    [Take one M&M out of cup]
-				    [Determine what color it is]
-				    [Put it in the correct pile]
-				    [Check to see if there’s any more candy in the cup]
+While candy_in_cup = TRUE
+    [Take one M&M out of cup]
+    [Determine what color it is]
+    [Put it in the correct pile]
+    [Check to see if there’s any more candy in the cup]
 
-  				    IF [there’s no more candy in the cup]
-     			        THEN candy_in_cup = FALSE
-     			END
+	    IF [there’s no more candy in the cup]
+	        THEN candy_in_cup = FALSE
+	END
      			</code></pre>
      		</section>
 
