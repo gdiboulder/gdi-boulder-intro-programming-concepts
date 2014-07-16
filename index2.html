@@ -88,10 +88,23 @@
 						</ul>
 				</section>
 
+
+			<!--<section class="hide-pdf">
+				<h3>Welcome!</h3>
+				<div class = "left-align">
+				<p class = "blue">Tell us about yourself.</p>
+				<ul>
+					<li>Who are you?</li>
+					<li>What do you hope to get out of the class?</li>
+				</ul>
+				</div>
+			</section>-->
+
+			<!-- Copy this section over and over for each slide -->
 			<section>
 				<h3>Computer Programs</h3>
 				<ul>
-					<li>Computer programs are everywhere.</li>
+					<li>Computer programs are everywhere. They:
 					<ul>
 						<li>Run parts of your car.</li>
 					    <li>Let you check your email.</li>
@@ -105,13 +118,33 @@
 				<h3>What is a Computer Program?</h3>
 				<ul>
 					<li>At its core, a computer program is a way of getting something done.</li>
+					<li>One of the ways to accomplish "getting something done" is a list of instructions that tells the computer exactly what to do and allows interaction with human beings.</li>
+					<li>Those instructions have to be written in a "language" that the computer can understand.</li>
 				</ul>
 			</section>
 
 			<section>
-				<h3>Programming Languages</h3>
+				<h3>Programming Languages (1/2)</h3>
 				<ul>
-					<li>A programming language is basically a set of strings (letters, numbers, commands) that is changed into machine code that the computer can understand.</li> 
+					<li>A programming language is basically a set of strings (letters, numbers, commands) that is changed into machine code that the computer can understand.</li>
+					<li>The language you use for a program depends on a number of things:</li>
+					<ul>
+						<li>How the program will be used.</li>
+						<li>What you want the program to do.</li>
+						<li>What languages you know.</li>
+					</ul>
+				</ul>
+			</section>
+
+			<section>
+				<h3>Programming Languages (2/2)</h3>
+				<ul>
+					<li>Computers don’t exactly understand programming languages (such as Java or Python). They need to be transformed into the computer language that they can understand.</li>
+					<li>That computer language is strings of 1’s and 0’s-- binary numbers that most people can’t read easily-- to be able to do anything with them.</li>
+					<ul>
+						<li>For example, the letter 'A' in a computer has the binary representation: 01000001.</li>
+					</ul>
+					<li>Despite being able to decipher those unintelligible strings of 1’s and 0’s, computers are actually pretty dumb. </li>
 				</ul>
 			</section>
 
@@ -136,11 +169,17 @@
 				<h3>Computers are dumb</h3>
 				<ul>
 					<li>Computers can only do what they have instructions for-- and they take those instructions VERY literally.</li>
+					<li>As a result, you have to tell them every single thing you want them to do and every single thing to take into consideration. </li>
+					<li>If you leave any instructions out (or put them in the “wrong” order), the results might not be what you expect.</li>
 				</ul>
 			</section>
 
 			<section>
 				<h3>Demonstration</h3>
+				<ul>
+					<li>The door scenario.</li>
+					<li>One person is the "program", and one person is the "computer".</li>
+					<li>The "computer" has to do literally what the "program" says to do!</li>
 			</section>
 
 			<section>
@@ -154,6 +193,8 @@
 				<h3>Kinds of Memory - ROM</h3>
 				<ul>
 					<li><b>ROM</b> or <b>Read-only memory</b> is the more permanent kind.</li>
+					<li>ROM is used in the computer so that the processor does not have to look for important pieces of data when switched on, like the operating system.</li> 
+					<li>For the most part, you cannot edit files in ROM and data on it cannot be erased by turning off your computer.</li> 
 				</ul>
 			</section>
 
@@ -161,6 +202,8 @@
 				<h3>Kinds of Memory - Storage</h3>
 				<ul>
 					<li>More permanent, more long term memory.</li>
+					<li>This memory is what the computer uses to store programs and files that you create.</li>
+					<li>Examples would be the hard drive on the computer, thumb drive, or external hard drive.</li>
 				<ul>
 			</section>
 
@@ -168,6 +211,8 @@
 				<h3>Kinds of Memory - RAM</h3>
 				<ul>
 					<li><b>RAM</b> or <b>Random-access memory</b> is less permanent.</li>
+					<li>RAM is the memory that the computer uses to do its "thinking" (such as when you're working on a Word document, the changes you make before you hit Save, are stored in RAM).</li>
+					<li>When computer is turned off, data in RAM is gone and cannot be recovered unless it has been saved.</li>
 				</ul>
 			</section>
 
@@ -218,6 +263,8 @@
 				<ul>
 					<li>You <b>can</b> store a number as a string variable.</li>
 					<li>If you store a number as a string variable, you can’t use it in any math calculations.</li>
+					<li>For example, credit card numbers are integers but you would never use them in a mathematical calculation.</li>
+					<li>Another example would be postal codes. Even though the USA uses only numbers, not all countries do. So if you make your zip code field an integer, no other country can use it except the USA.</li>
 				</ul>
 			</section>
 
@@ -225,6 +272,7 @@
 				<h3>Boolean Variables</h3>
 				<ul>
 					<li>Boolean variables are used to store the value <b>TRUE</b> or <b>FALSE</b> (yes or no).</li>
+					<li>You define a condition, then use a Boolean to tell the computer whether that condition is true or false.</li>
 				</ul>
 			</section>
 
@@ -232,6 +280,8 @@
 				<h3>Logical structures</h3>
 				<ul>
 					<li>Now that you can store data, you probably want to do something with it.</li>
+					<li>Logical structures provide the framework for using that data to "get stuff done".</li>
+					<li>If you understand the concepts, you can learn how to represent them in most programming languages.</li>
 				</ul>
 			</section>
 
@@ -252,32 +302,128 @@
 							<li>or</li>						
 						</ul>
 				</ul>
-			</section>			
+			</section>	
 
 			<section>
 				<h3>If/Then/Else</h3>
 				<ul>
-					<li>If/Then/Else statements evaluate a condition and take actions based on the result.</li>
+					<li>If/Then/Else statements evaluate a condition and take actions based on the result:</li>
+						<ul>
+							<li>If the condition is true, the computer does the action or actions that are listed after the <b>IF</b> statement (in some languages, the "Then" is implied).</li>
+							<li>If the condition is false, the computer does the action or actions that are listed in the <b>Else</b> statement.</li>
+						</ul>
 				</ul>
 			</section>
 
 			<section>
-				<h3>Let's Do Some If/Then/Else!</h3>
+				<h3>Let's Do Some If/Then/Else! (1/4)</h3>
 			</section>
 
 			<section>
-				<h3>Loops</h3>
+				<h3>If/Then/Else Excercises (2/4)</h3>
+				<ul>
+					<li>For this excercise, we're using Ruby.</li>
+					<li>Go to <a href="http://repl.it/languages/Ruby" target="_blank">repl.it,</a> which is an online terminal to practice writing code.</li>
+				</ul>
+			</section>
+
+			<section>
+				<h3>IF Excercise (3/4)</h3>
+				<pre><code="html">
+cart_total = 8
+
+if cart_total > 2
+    print "You get free shipping!"
+end
+				</code></pre>
+				<ul>
+					<li>Change the numbers to see what happens.</li>
+					<li>Change the operators (greater than, less than, etc.)</li>
+				</ul>
+			</section>
+
+			<section>
+				<h3>IF/THEN/ELSE Excercise (4/4)</h3>
+				<ul>
+					<li>ELSE is the companion to the IF statement. An IF/THEN/ELSE statement says "If the statement is true, run this block of code; if it's not true, run the code after the else statement."</li>
+				</ul>
+				<pre><code="html">
+cart_total = 8
+
+if cart_total > 2
+    print "You get free shipping!"
+else
+    print "You'll have to pay for shipping."
+end
+				</code></pre>
+				<ul>
+					<li>Change the numbers to see what happens.</li>
+					<li>Change the operators (greater than, less than, etc.)</li>
+					<li>Change the string statements.</li>
+				</ul>
+			</section>
+
+			<section>
+				<h3>Loops (1/2)</h3>
 				<ul>
 					<li>A loop is a list of instructions that repeats until a certain condition is reached.</li>
+					<li>Two kinds of loops are <b>For Loops</b> and <b>While Loops</b>.</li>
 				</ul>
 			</section>
 
 			<section>
-				<h3>Let's Do Some Loops!</h3>
+				<h3>Why Use Loops? (2/2)</h3>
+				<ul>
+					<li>Because an activity is being timed and you want to repeat the action until time runs out.</li>
+					<li>You’re validating what the user is giving and you can’t continue until the right answer is given.</li>
+					<li>You have a repetitive task like labeling envelopes and you have to do it over again perhaps with different input each time (name, address, state, zip).</li>
+					<li>But mainly so that you don’t have to write tens or hundreds of lines of code that are similar to each other.</li>
+				</ul>
 			</section>
 
 			<section>
-				<h3>Project Implementation</h3>
+				<h3>Let's Do Some Loops! (1/4)</h3>
+			</section>
+
+			<section>
+				<h3>Loop Excercise (2/4)</h3>
+				<ul>
+					<li>For this excercise, we're using Python.</li>
+					<li>Go to <a href="http://repl.it/languages/Python" target="_blank">repl.it,</a> which is an online terminal to practice writing code.</li>
+				</ul>
+			</section>
+
+			<section>
+				<h3>Loop (while) Excercise (3/4)</h3>
+				<pre><code="html">
+papers_to_deliver = 65
+
+while papers_to_deliver > 0:
+    print papers_to_deliver
+    papers_to_deliver = papers_to_deliver - 1
+print 'Out of papers! Go home!';
+				</code></pre>
+				<ul>
+					<li>Change the numbers to see what happens.</li>
+					<li>Change the operators (greater than, less than, etc.)</li>
+										<li>Change the string statements.</li>
+				</ul>
+			</section>
+
+			<section>
+				<h3>Beware the Infinite Loop! (4/4)</h3>
+				<ul>
+					<li>An infinite loop is a loop that will never meet the condition to stop. It will keep going until it's used up all your computer's (or server's) memory (RAM). This is bad!</li>
+					<li>Example: In the While loop:</li>
+						<ul>
+							<li>If the "papers_to_deliver = papers_to_deliver - 1" line was missing, it would keep looping because 65 is always greater than 0!</li>
+							<li>If "papers_to_deliver = papers_to_deliver - 1" was changed to "+ 1", it would keep adding 1 to 65 forever!</li>
+						</ul>
+				</ul>
+			</section>
+
+			<section>
+				<h3>Project Implementation <br> Example</h3>
 				<ul>
 					<li>When companies implement a new program, they take various things into consideration:</li>
 				</ul>
