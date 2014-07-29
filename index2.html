@@ -47,11 +47,15 @@
 					<h2>Thanks to our sponsor:</h2>
 					<img src="images/sponsors/salesforce.jpg" style="border:none; width: 400px;"/>
 				</section>
+
 				<section>
 					<h3>Class notes</h3>
-					<p>Follow along with the slides at: <a href="http://gdiboulder.github.io/gdi-boulder-intro-programming-concepts/">http://gdiboulder.github.io/gdi-boulder-intro-programming-concepts/</a></p>
-					<p>All class slides are also available on github at <a href="https://github.com/gdiboulder/gdi-boulder-intro-programming-concepts">github.com/gdiboulder/gdi-boulder-intro-programming-concepts</a></p>
+					<ul>
+						<li>Class slides (streamlined): <a href="http://gdiboulder.github.io/gdi-boulder-intro-programming-concepts/">http://gdiboulder.github.io/gdi-boulder-intro-programming-concepts/</a></li>
+						<li>Detailed slides: <a href="http://gdiboulder.github.io/gdi-boulder-intro-programming-concepts/index2.html">http://gdiboulder.github.io/gdi-boulder-intro-programming-concepts/index2.html</a></li>
+					</ul>
 				</section>
+
 				<section>
 					<h2>A few quick announcements</h2>
 				</section>
@@ -179,6 +183,7 @@
 				<ul>
 					<li>One person is the "program", and one person is the "computer".</li>
 					<li>The "computer" has to do literally what the "program" says to do!</li>
+					<li>We did one person (program) telling the other person (computer) what to do verbatim (answering the phone)</li>
 			</section>
 
 			<section>
@@ -247,6 +252,12 @@
 				<h3>Integer Variables</h3>
 				<ul>
 					<li>Integer variables are used to store positive or negative whole numbers.</li>
+					<li>Examples:</li>
+						<ul>
+							<li>Amazon: number of books you can order is an integer (also the number in 'cart').</li>
+							<li>More than likely, Amazon stores this field as an integer because they’ll want to do calculations with it. If you order 2 copies of a book, the program multiplies the price by 2 to get the total cost.</li>
+							<li>Another example is in eBay. When you select something to order, the quantity is an integer. See what happens when you put in the letter 'a' or a special character like '@'.</li>
+						</ul>
 				</ul>
 			</section>
 
@@ -254,6 +265,11 @@
 				<h3>String Variables</h3>
 				<ul>
 					<li>String variables are used to store text.</li>
+					<li>Examples:</li>
+					<ul>
+						<li>Staying with Amazon, if you went into your profile, fields like name, address, state, and city are strings.</li>
+						<li>Usually when a string is created in the program, it's surrounded by quotation marks.</li>
+					</ul>
 				</ul>
 			</section>
 
@@ -272,6 +288,10 @@
 				<ul>
 					<li>Boolean variables are used to store the value <b>TRUE</b> or <b>FALSE</b> (yes or no).</li>
 					<li>You define a condition, then use a Boolean to tell the computer whether that condition is true or false.</li>
+					<li>Example:</li>
+						<ul>
+							<li>Amazon: If the login equals true, your name shows up, your cart is populated, etc.</li>
+						</ul>
 				</ul>
 			</section>
 
@@ -315,14 +335,26 @@
 			</section>
 
 			<section>
+				<h3>If/Then/Else Examples</h3>
+				<ul>
+					<li>Still staying with Amazon.</li>
+						<ul>
+							<li>"IF" you're logged in, show your name and cart numbers. "ELSE", show the login page.</li>
+							<li>"IF" you're an Amazon Prime member, you get free shipping. "ELSE", you get to pay for shipping!</li>
+						</ul>
+				</ul>
+			</section>
+
+			<section>
 				<h3>Let's Do Some If/Then/Else! (1/4)</h3>
 			</section>
 
 			<section>
 				<h3>If/Then/Else Excercises (2/4)</h3>
 				<ul>
-					<li>For this excercise, we're using Ruby.</li>
-					<li>Go to <a href="http://repl.it/languages/Ruby" target="_blank">repl.it,</a> which is an online terminal to practice writing code.</li>
+					<li>For this excercise, we're using <b>Ruby</b>.</li>
+					<li>Go to <a href="http://repl.it/languages" target="_blank">repl.it,</a> which is an online terminal to practice writing code.</li>
+					<li>Choose 'Ruby'.</li>
 				</ul>
 			</section>
 
@@ -373,15 +405,11 @@ end
 			<section>
 				<h3>Why Use Loops? (2/2)</h3>
 				<ul>
-					<li>Because an activity is being timed and you want to repeat the action until time runs out.</li>
-					<li>You’re validating what the user is giving and you can’t continue until the right answer is given.</li>
-					<li>You have a repetitive task like labeling envelopes and you have to do it over again perhaps with different input each time (name, address, state, zip).</li>
-					<li>But mainly so that you don’t have to write tens or hundreds of lines of code that are similar to each other.</li>
+					<li>Using loops is very powerful. One of the main reasons to use loops is to reduce your lines of code.</li>
+					<li>Depending on what you're doing, you could have hundreds of lines of code using "IF/THEN/ELSE", or you could write a simple Loop statement.</li>
 				</ul>
 			</section>
-			<section>
-				<img src="images/loop-illustration.png" />
-			</section>
+
 			<section>
 				<h3>Let's Do Some Loops! (1/4)</h3>
 			</section>
@@ -390,7 +418,8 @@ end
 				<h3>Loop Excercise (2/4)</h3>
 				<ul>
 					<li>For this excercise, we're using Python.</li>
-					<li>Go to <a href="http://repl.it/languages/Python" target="_blank">repl.it,</a> which is an online terminal to practice writing code.</li>
+					<li>Go to <a href="http://repl.it/languages" target="_blank">repl.it,</a> which is an online terminal to practice writing code.</li>
+					<li>Choose 'Python'.</li>
 				</ul>
 			</section>
 
@@ -407,12 +436,25 @@ print 'Out of papers! Go home!';
 				<ul>
 					<li>Change the numbers to see what happens.</li>
 					<li>Change the operators (greater than, less than, etc.)</li>
-										<li>Change the string statements.</li>
+					<li>Change the string statements.</li>
+					<li>See the next slide that will explain what is happening in the loop (via a diagram).</li>
 				</ul>
 			</section>
 
 			<section>
-				<h3>Beware the Infinite Loop! (4/4)</h3>
+				<img src="images/loop-illustration.png" />
+			</section>
+
+			<section>
+				<h3>WHILE Loop Examples</h3>
+				<ul>
+					<li>Amazon or eBay: "WHILE" it's today, display the daily deals.</li>
+					<li>Amazon cart: "WHILE" it's this book, display the book's image, title, price, etc.</li>
+				</ul>
+			</section>
+
+			<section>
+				<h3>Beware the Infinite Loop!</h3>
 				<ul>
 					<li>An infinite loop is a loop that will never meet the condition to stop. It will keep going until it's used up all your computer's (or server's) memory (RAM). This is bad!</li>
 					<li>Example: In the While loop:</li>
