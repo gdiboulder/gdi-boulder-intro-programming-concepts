@@ -1,6 +1,6 @@
 Intro to Programming Concepts
 ======================================
-![Girl Develop It](images/wordmark-tagline-white.png)
+![Girl Develop It](images/pink-logo.png)
 
 ## How to update these slides
 
@@ -12,12 +12,12 @@ To fork this project, click the "Fork" button in the GitHub.com repository.
 
 ### 2. Clone your fork
 
-You've successfully forked the **gdi-boulder-intro-programming-concepts** repository,
+You've successfully forked the **intro-programming-concepts** repository,
 but so far it only exists on GitHub. To be able to work on the project, you will need to clone it to your local machine.
 
 Run the following in your terminal:
 ```ApacheConf
-$ git clone https://github.com/username/gdi-boulder-intro-programming-concepts.git
+$ git clone https://github.com/username/intro-programming-concepts.git
 # Clones your fork of the repository into the current directory in termina
 ```
 
@@ -28,9 +28,9 @@ track of the original repository, you need to add another remote named upstream:
 
 Run the following in your terminal:
 ```ApacheConf
-$ cd gdi-boulder-intro-programming-concepts
-# Changes the active directory in the prompt to the newly cloned "gdi-boulder-intro-programming-concepts" directory
-$ git remote add upstream https://github.com/gdiboulder/gdi-boulder-intro-programming-concepts.git
+$ cd intro-programming-concepts
+# Changes the active directory in the prompt to the newly cloned "intro-programming-concepts" directory
+$ git remote add upstream https://github.com/gdiannarbor/intro-programming-concepts.git
 # Assigns the original repository to a remote called "upstream"
 $ git fetch upstream
 # Pulls in changes not present in your local repository, without modifying your files
@@ -58,6 +58,6 @@ When you're ready, commit and push your changes to your repo.
 Don't forget to do a pull request on the upstream repo so we can merge your changes in!
 
 ## Questions?
-E-mail us: [boulder@girldevelopit.com](mailto:boulder@girldevelopit.com)
+E-mail us: [annarbor@girldevelopit.com](mailto:annarbor@girldevelopit.com)
 
-Tweet at us: [@gdiboulder](http://twitter.com/gdiboulder)
+Tweet at us: [@gdiannarbor](http://twitter.com/gdiannarbor)

@@ -1,0 +1,16 @@
+/* Getting Sassy With CSS - Workshop Settings*/
+
+@import "gdi-sass";
+
+.reveal {
+  footer {
+    background-image: none;
+    font-size: 40%;
+    text-align: left;
+  }
+
+  .copyright {
+    margin: 15px 0 0 15px;
+  }
+
+}

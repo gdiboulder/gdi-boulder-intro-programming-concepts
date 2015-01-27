@@ -1,0 +1,127 @@
+/* Getting Sassy With CSS - Workshop Settings*/
+
+@import "gdilight";
+
+.reveal {
+  // word-wrap: break-word;
+
+  .hide { display: none; }
+
+  .center-align{ text-align: center}
+
+  .copy--small {
+    font-size: .8em;
+  }
+
+  .copy--xsmall {
+    font-size: .6em;
+  }
+
+  strong {
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+  }
+
+  .horz--auto {
+    margin: inherit auto;
+  }
+
+  .box {
+    margin: 2em 0;
+  }
+
+  .box--top {
+    margin-top: 3em;
+  }
+
+  .box--small {
+    margin: 1em 0;
+  }
+
+  ul, ol {
+    ul, ol {
+      margin-top: 10px;
+    }
+
+    li:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .list--tall {
+    ol, ul {margin-top: 20px;}
+    li {margin-bottom: 20px;}
+  }
+
+  .list--xtall {
+    ol, ul {margin-top: 40px;}
+    li {margin-bottom: 40px;}
+  }
+
+  .list--bare {
+    list-style-type: none;
+  }
+
+  .broken {
+    list-style-position: inside;
+    margin-top: .25em;
+
+    li {
+      display: block;
+      padding: .25em 1em;
+    }
+  }
+
+  ol.broken {
+    counter-reset: counter;
+
+    li {
+      &:before {
+        color: #ccc;
+        content: counter(counter) "." ;
+        counter-increment: counter;
+        padding-right: .5em;
+      }
+    }
+  }
+
+  .break {
+    border-top: 20px solid #efefef;
+    padding-top: 2em;
+  }
+
+  section img {
+    margin: 0 15px;
+  }
+
+  .img--bare {
+    border: none;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .gist {
+    font-size: .5em;
+    line-height: 1.3em;
+    max-height: 475px;
+    overflow: scroll
+  }
+}
+
+code {
+  background: #e8e8e8;
+}
+
+pre {
+  margin: 0;
+  width: auto;
+  box-shadow: none;
+
+  code {
+    background: transparent;
+    border: 6px solid #fff;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+    min-height: 300px;
+    max-height: 475px;
+    padding: 5px 10px;
+  }
+}

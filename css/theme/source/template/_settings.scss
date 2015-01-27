@@ -1,0 +1,35 @@
+// Libraries
+@import "compass/css3";
+@import "../lib/font-awesome/font-awesome";
+
+
+// Base settings for all themes that can optionally be
+
+// Background of the presentation
+$backgroundColor: #2b2b2b;
+
+// Primary/body text
+$mainFont: 'Gotham-Book', 'Helvetica', Arial, sans-serif;
+$mainFontSize: 36px;
+$mainColor: #eee;
+
+// Headings
+$headingFont: 'Gotham-Bold', Impact, sans-serif;
+$headingColor: #F05B62;
+$headingLineHeight: 0.9em;
+$headingLetterSpacing: 0.02em;
+$headingTextTransform: uppercase;
+$headingTextShadow: 0px 0px 6px rgba(0,0,0,0.2);
+$heading1TextShadow: $headingTextShadow;
+
+// Links and actions
+$linkColor: #F05B62;
+$linkColorHover: lighten( $linkColor, 20% );
+
+// Text selection
+$selectionBackgroundColor: lighten( $linkColor, 20% );
+$selectionColor: #fff;
+
+
+// Mixins
+@import "mixins";
