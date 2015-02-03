@@ -40,7 +40,9 @@
 
         <section class="hide-pdf">
           <h3>About Me</h3>
-          <!-- TODO: Tell your story here :) -->
+          <img src="images/Talia.jpeg" />
+          <p class="box copy--small">I am a mobile developer with Detroit Labs. I recently worked at Ford developing apps for in-vehicle systems. I was also an app developer for Photosynq, an open-research project that focuses on developing open-hardware solutions for measuring plant-health. I am an instructor and volunteer with Girl Develop It and am passionate about technology education. Follow me on twitter @Talia_Selitsky</p>
+
         </section>
 
         <section>
@@ -142,7 +144,7 @@
       </section>
 
       <section>
-        <h3>Kinds of Memory - Storage</h3>
+        <h3>Kinds of Memory - Hard-Disk Storage</h3>
         <ul class="list--tall copy--small box--small">
           <li>More permanent, more long term memory.</li>
           <li>This memory is what the computer uses to store programs and files that you create.</li>
@@ -155,11 +157,37 @@
         <ul class="list--tall copy--small box--small">
           <li><b>RAM</b> or <b>Random-access memory</b> is less permanent.</li>
           <li>RAM is the memory that the computer uses to do its "thinking" (such as when you're working on a Word document, the changes you make before you hit Save, are stored in RAM).</li>
+          <li>It hold raw data waiting to be processed as we’ll as the program instructions for processing that data</li>
+          <li>It holds the results of processing until they can be stored more permanently on disk or tape </li>
           <li>When computer is turned off, data in RAM is gone and cannot be recovered unless it has been saved.</li>
         </ul>
       </section>
 
-        <section>
+      <section>
+        <h3>How does Ram Work?</h3>
+        <ul class="list--tall copy--small box--small">
+          <li>Microscopic parts called capacitors hold bits that represent data as 1s and 0s</li>
+          <li>A RAM address helps locate data as needed for processing</li>
+          <li>RAM is volatile which means it requires electrical power to hold data</li> 
+        </ul>
+      </section>
+
+      <section>
+        <h3>How does Ram Work?</h3>
+        <img src="images/RAM.png" />
+      </section>
+
+      <section>
+        <h3>Difference between RAM and Hard-Disk Storage?</h3>
+          <ul class="list--tall copy--small box--small">
+          <li> RAM is temporary storage</li>
+          <li> Hard-disk storage is more permanent </li>
+         <li> RAM has less storage capacity than hard-disk storage </li>
+        </ul>
+      </section>
+
+
+      <section>
           <h3>Programming structures</h3>
           <ul class="list--tall copy--small box--small">
             <li>No matter what programming language you use, the structures that are available are usually fairly similar.
@@ -193,6 +221,7 @@
         <section>
           <h3>Integer Variables</h3>
           <p class="copy--small box">Integer variables are used to store<br/>positive or negative whole <strong>numbers</strong>.</p>
+           <p class="copy--small box"><span class="blue">int data=30</span></p>
             <ul class="list--tall copy--xsmall">
               <li><strong>Amazon Example:</strong> number of books you can order is an integer (also the number in 'cart').</li>
               <li>More than likely, Amazon stores this field as an integer because they’ll want to do calculations with it. If you order 2 copies of a book, the program multiplies the price by 2 to get the total cost.</li>
@@ -203,6 +232,7 @@
         <section>
           <h3>String Variables</h3>
           <p class="copy--small box">String variables are used to store text.</p>
+          <p class="copy--small box"><span class="blue">String name="Bob Jones"</span></p>
           <ul class="list--tall copy--xsmall">
             <li><strong>Amazon Example:</strong> if you went into your profile, fields like name, address, state, and city are strings.</li>
             <li>Usually when a string is created in the program, it's surrounded by quotation marks.</li>
@@ -211,6 +241,7 @@
 
         <section>
           <h3>Numbers as strings</h3>
+          <p class="copy--small box"><span class="blue">String zipcode="48070"</span></p>
           <ul class="list--tall copy--small box">
             <li>You <b>can</b> store a number as a string variable.</li>
             <li>If you store a number as a string variable, you can't use it in any math calculations.
@@ -225,6 +256,7 @@
         <section>
           <h3>Boolean Variables</h3>
           <p class="copy--small box">Boolean variables are used to store the value<br/><b>TRUE</b> or <b>FALSE</b> (yes or no).</p>
+          <p class="copy--small box"><span class="blue">boolean isLogin=true</span></p>
           <ul class="copy--small list--tall">
             <li>You define a condition, then use a Boolean to tell the computer whether that condition is true or false.</li>
             <li class="copy--small">Amazon Example:
@@ -247,7 +279,7 @@
         <section>
           <h3>Operators</h3>
           <ul class="list--tall copy--small box--small">
-            <li>Operators are words or symbols that let you <strong>compare, combine, or evaulate</strong> something to produce an output.</li>
+            <li>Operators are words or symbols that let you <strong>compare, combine, or evaluate</strong> something to produce an output.</li>
 
             <li>A few xamples:
               <ul class="copy--small">
