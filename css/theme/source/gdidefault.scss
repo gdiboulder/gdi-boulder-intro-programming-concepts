@@ -6,7 +6,7 @@
 $linkColor: #01A9B4;
 
 // Background generator
-@mixin bodyBackground() {
+@mixin pageBackground() {
   @include background( radial-gradient( rgba(28,30,32,1), rgba(85,90,95,1) ) );
 }
 

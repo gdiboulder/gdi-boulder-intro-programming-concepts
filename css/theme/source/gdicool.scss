@@ -10,7 +10,7 @@ $linkColor: #01A9B4;
 $selectionBackgroundColor: #134674;
 
 // Background generator
-@mixin bodyBackground() {
+@mixin pageBackground() {
   @include background( radial-gradient( lighten($backgroundColor, 40% ), #f7fbfc ) );
 }
 

@@ -2143,7 +2143,7 @@
  * GLOBAL STYLES
  *********************************************/
 /* line 7, source/template/_theme.scss */
-body {
+html {
   background: #f7fbfc;
   background: -moz-radial-gradient(#fcf3e0, #f7fbfc);
   background: -o-radial-gradient(#fcf3e0, #f7fbfc);

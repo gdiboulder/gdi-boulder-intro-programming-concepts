@@ -2144,7 +2144,7 @@
  * GLOBAL STYLES
  *********************************************/
 /* line 7, source/template/_theme.scss */
-body {
+html {
   background: white;
   background: -moz-radial-gradient(#ffffff, #f2f2f2);
   background: -o-radial-gradient(#ffffff, #f2f2f2);
