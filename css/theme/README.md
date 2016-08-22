@@ -3,9 +3,9 @@ Themes are written using Sass to keep things modular and reduce the need for rep
 After installing sass, you will also need to run the following:
 
 ```
-gem install compass --pre
+gem install compass -v 0.12.7
 ```
 
 ```
-sass --watch css/theme/source/:css/theme --style expanded
+compass watch -c compass.rb
 ```

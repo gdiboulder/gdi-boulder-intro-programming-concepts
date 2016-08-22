@@ -10,7 +10,7 @@ $backgroundColor: #fff;
 $linkColor: #01A9B4;
 $selectionBackgroundColor: rgba(11, 79, 81, 0.99);
 
-@mixin pageBackground() {
+@mixin bodyBackground() {
   @include background( radial-gradient($backgroundColor, darken($backgroundColor, 5%)) );
 }
 

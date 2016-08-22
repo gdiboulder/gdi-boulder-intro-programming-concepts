@@ -1,0 +1,35 @@
+.blue-code {
+    color: blue;
+}
+
+.green-code {
+    color: green;
+}
+
+.pink-results {
+    color: darkred;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.reveal table {
+    margin: 1em auto;
+    
+}
+
+.reveal table th {
+        border-top: 0;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        width: 200px;
+        text-align: center;
+    }
+
+.reveal table td {
+        border: 1px solid black;
+        width: 200px;
+        text-align: center;
+    }

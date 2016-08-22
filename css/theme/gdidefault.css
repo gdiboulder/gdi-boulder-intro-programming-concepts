@@ -11,6 +11,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 /* line 4, source/lib/font-awesome/_core.scss */
 .fa {
   display: inline-block;
@@ -125,6 +126,7 @@
     -moz-transform: rotate(359deg);
   }
 }
+
 @-webkit-keyframes spin {
   /* line 16, source/lib/font-awesome/_spinning.scss */
   0% {
@@ -136,6 +138,7 @@
     -webkit-transform: rotate(359deg);
   }
 }
+
 @-o-keyframes spin {
   /* line 20, source/lib/font-awesome/_spinning.scss */
   0% {
@@ -147,6 +150,7 @@
     -o-transform: rotate(359deg);
   }
 }
+
 @-ms-keyframes spin {
   /* line 24, source/lib/font-awesome/_spinning.scss */
   0% {
@@ -158,6 +162,7 @@
     -ms-transform: rotate(359deg);
   }
 }
+
 @keyframes spin {
   /* line 28, source/lib/font-awesome/_spinning.scss */
   0% {
@@ -169,6 +174,7 @@
     transform: rotate(359deg);
   }
 }
+
 /* line 4, source/lib/font-awesome/_rotated-flipped.scss */
 .fa-rotate-90 {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=$rotation);
@@ -344,7 +350,7 @@
   content: "\f012";
 }
 
-/* line 22, source/lib/font-awesome/_icons.scss */
+/* line 23, source/lib/font-awesome/_icons.scss */
 .fa-gear:before,
 .fa-cog:before {
   content: "\f013";
@@ -400,7 +406,7 @@
   content: "\f01d";
 }
 
-/* line 34, source/lib/font-awesome/_icons.scss */
+/* line 35, source/lib/font-awesome/_icons.scss */
 .fa-rotate-right:before,
 .fa-repeat:before {
   content: "\f01e";
@@ -536,7 +542,7 @@
   content: "\f03a";
 }
 
-/* line 62, source/lib/font-awesome/_icons.scss */
+/* line 63, source/lib/font-awesome/_icons.scss */
 .fa-dedent:before,
 .fa-outdent:before {
   content: "\f03b";
@@ -577,7 +583,7 @@
   content: "\f043";
 }
 
-/* line 71, source/lib/font-awesome/_icons.scss */
+/* line 72, source/lib/font-awesome/_icons.scss */
 .fa-edit:before,
 .fa-pencil-square-o:before {
   content: "\f044";
@@ -728,7 +734,7 @@
   content: "\f063";
 }
 
-/* line 102, source/lib/font-awesome/_icons.scss */
+/* line 103, source/lib/font-awesome/_icons.scss */
 .fa-mail-forward:before,
 .fa-share:before {
   content: "\f064";
@@ -789,7 +795,7 @@
   content: "\f070";
 }
 
-/* line 115, source/lib/font-awesome/_icons.scss */
+/* line 116, source/lib/font-awesome/_icons.scss */
 .fa-warning:before,
 .fa-exclamation-triangle:before {
   content: "\f071";
@@ -885,7 +891,7 @@
   content: "\f084";
 }
 
-/* line 135, source/lib/font-awesome/_icons.scss */
+/* line 136, source/lib/font-awesome/_icons.scss */
 .fa-gears:before,
 .fa-cogs:before {
   content: "\f085";
@@ -1101,13 +1107,13 @@
   content: "\f0b2";
 }
 
-/* line 179, source/lib/font-awesome/_icons.scss */
+/* line 180, source/lib/font-awesome/_icons.scss */
 .fa-group:before,
 .fa-users:before {
   content: "\f0c0";
 }
 
-/* line 181, source/lib/font-awesome/_icons.scss */
+/* line 182, source/lib/font-awesome/_icons.scss */
 .fa-chain:before,
 .fa-link:before {
   content: "\f0c1";
@@ -1123,13 +1129,13 @@
   content: "\f0c3";
 }
 
-/* line 185, source/lib/font-awesome/_icons.scss */
+/* line 186, source/lib/font-awesome/_icons.scss */
 .fa-cut:before,
 .fa-scissors:before {
   content: "\f0c4";
 }
 
-/* line 187, source/lib/font-awesome/_icons.scss */
+/* line 188, source/lib/font-awesome/_icons.scss */
 .fa-copy:before,
 .fa-files-o:before {
   content: "\f0c5";
@@ -1140,7 +1146,7 @@
   content: "\f0c6";
 }
 
-/* line 190, source/lib/font-awesome/_icons.scss */
+/* line 191, source/lib/font-awesome/_icons.scss */
 .fa-save:before,
 .fa-floppy-o:before {
   content: "\f0c7";
@@ -1241,19 +1247,19 @@
   content: "\f0db";
 }
 
-/* line 211, source/lib/font-awesome/_icons.scss */
+/* line 212, source/lib/font-awesome/_icons.scss */
 .fa-unsorted:before,
 .fa-sort:before {
   content: "\f0dc";
 }
 
-/* line 213, source/lib/font-awesome/_icons.scss */
+/* line 214, source/lib/font-awesome/_icons.scss */
 .fa-sort-down:before,
 .fa-sort-asc:before {
   content: "\f0dd";
 }
 
-/* line 215, source/lib/font-awesome/_icons.scss */
+/* line 216, source/lib/font-awesome/_icons.scss */
 .fa-sort-up:before,
 .fa-sort-desc:before {
   content: "\f0de";
@@ -1269,19 +1275,19 @@
   content: "\f0e1";
 }
 
-/* line 219, source/lib/font-awesome/_icons.scss */
+/* line 220, source/lib/font-awesome/_icons.scss */
 .fa-rotate-left:before,
 .fa-undo:before {
   content: "\f0e2";
 }
 
-/* line 221, source/lib/font-awesome/_icons.scss */
+/* line 222, source/lib/font-awesome/_icons.scss */
 .fa-legal:before,
 .fa-gavel:before {
   content: "\f0e3";
 }
 
-/* line 223, source/lib/font-awesome/_icons.scss */
+/* line 224, source/lib/font-awesome/_icons.scss */
 .fa-dashboard:before,
 .fa-tachometer:before {
   content: "\f0e4";
@@ -1297,7 +1303,7 @@
   content: "\f0e6";
 }
 
-/* line 227, source/lib/font-awesome/_icons.scss */
+/* line 228, source/lib/font-awesome/_icons.scss */
 .fa-flash:before,
 .fa-bolt:before {
   content: "\f0e7";
@@ -1313,7 +1319,7 @@
   content: "\f0e9";
 }
 
-/* line 231, source/lib/font-awesome/_icons.scss */
+/* line 232, source/lib/font-awesome/_icons.scss */
 .fa-paste:before,
 .fa-clipboard:before {
   content: "\f0ea";
@@ -1469,7 +1475,7 @@
   content: "\f10a";
 }
 
-/* line 263, source/lib/font-awesome/_icons.scss */
+/* line 264, source/lib/font-awesome/_icons.scss */
 .fa-mobile-phone:before,
 .fa-mobile:before {
   content: "\f10b";
@@ -1500,7 +1506,7 @@
   content: "\f111";
 }
 
-/* line 270, source/lib/font-awesome/_icons.scss */
+/* line 271, source/lib/font-awesome/_icons.scss */
 .fa-mail-reply:before,
 .fa-reply:before {
   content: "\f112";
@@ -1576,7 +1582,7 @@
   content: "\f122";
 }
 
-/* line 286, source/lib/font-awesome/_icons.scss */
+/* line 288, source/lib/font-awesome/_icons.scss */
 .fa-star-half-empty:before,
 .fa-star-half-full:before,
 .fa-star-half-o:before {
@@ -1598,7 +1604,7 @@
   content: "\f126";
 }
 
-/* line 292, source/lib/font-awesome/_icons.scss */
+/* line 293, source/lib/font-awesome/_icons.scss */
 .fa-unlink:before,
 .fa-chain-broken:before {
   content: "\f127";
@@ -1789,25 +1795,25 @@
   content: "\f14e";
 }
 
-/* line 331, source/lib/font-awesome/_icons.scss */
+/* line 332, source/lib/font-awesome/_icons.scss */
 .fa-toggle-down:before,
 .fa-caret-square-o-down:before {
   content: "\f150";
 }
 
-/* line 333, source/lib/font-awesome/_icons.scss */
+/* line 334, source/lib/font-awesome/_icons.scss */
 .fa-toggle-up:before,
 .fa-caret-square-o-up:before {
   content: "\f151";
 }
 
-/* line 335, source/lib/font-awesome/_icons.scss */
+/* line 336, source/lib/font-awesome/_icons.scss */
 .fa-toggle-right:before,
 .fa-caret-square-o-right:before {
   content: "\f152";
 }
 
-/* line 337, source/lib/font-awesome/_icons.scss */
+/* line 338, source/lib/font-awesome/_icons.scss */
 .fa-euro:before,
 .fa-eur:before {
   content: "\f153";
@@ -1818,19 +1824,19 @@
   content: "\f154";
 }
 
-/* line 340, source/lib/font-awesome/_icons.scss */
+/* line 341, source/lib/font-awesome/_icons.scss */
 .fa-dollar:before,
 .fa-usd:before {
   content: "\f155";
 }
 
-/* line 342, source/lib/font-awesome/_icons.scss */
+/* line 343, source/lib/font-awesome/_icons.scss */
 .fa-rupee:before,
 .fa-inr:before {
   content: "\f156";
 }
 
-/* line 344, source/lib/font-awesome/_icons.scss */
+/* line 347, source/lib/font-awesome/_icons.scss */
 .fa-cny:before,
 .fa-rmb:before,
 .fa-yen:before,
@@ -1838,20 +1844,20 @@
   content: "\f157";
 }
 
-/* line 348, source/lib/font-awesome/_icons.scss */
+/* line 350, source/lib/font-awesome/_icons.scss */
 .fa-ruble:before,
 .fa-rouble:before,
 .fa-rub:before {
   content: "\f158";
 }
 
-/* line 351, source/lib/font-awesome/_icons.scss */
+/* line 352, source/lib/font-awesome/_icons.scss */
 .fa-won:before,
 .fa-krw:before {
   content: "\f159";
 }
 
-/* line 353, source/lib/font-awesome/_icons.scss */
+/* line 354, source/lib/font-awesome/_icons.scss */
 .fa-bitcoin:before,
 .fa-btc:before {
   content: "\f15a";
@@ -2107,7 +2113,7 @@
   content: "\f190";
 }
 
-/* line 405, source/lib/font-awesome/_icons.scss */
+/* line 406, source/lib/font-awesome/_icons.scss */
 .fa-toggle-left:before,
 .fa-caret-square-o-left:before {
   content: "\f191";
@@ -2128,7 +2134,7 @@
   content: "\f194";
 }
 
-/* line 410, source/lib/font-awesome/_icons.scss */
+/* line 411, source/lib/font-awesome/_icons.scss */
 .fa-turkish-lira:before,
 .fa-try:before {
   content: "\f195";
@@ -2145,9 +2151,10 @@
 /* line 7, source/template/_theme.scss */
 html {
   background: #2b2b2b;
+  background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 100, color-stop(0%, #1c1e20), color-stop(100%, #555a5f));
+  background: -webkit-radial-gradient(#1c1e20, #555a5f);
   background: -moz-radial-gradient(#1c1e20, #555a5f);
   background: -o-radial-gradient(#1c1e20, #555a5f);
-  background: -webkit-radial-gradient(#1c1e20, #555a5f);
   background: radial-gradient(#1c1e20, #555a5f);
 }
 
@@ -2157,24 +2164,28 @@ html {
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Gotham-Book";
   src: local("Gotham-Book"), url("../../fonts/Gotham/Gotham-Book.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Gotham-Italic";
   src: local("Gotham-Italic"), url("../../fonts/Gotham/Gotham-MediumIta.otf") format("opentype");
   font-weight: normal;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Gotham-Bold";
   src: local("Gotham-Bold"), url("../../fonts/Gotham/Gotham-Bold.otf") format("opentype");
   font-weight: bold;
   font-style: bold;
 }
+
 /* line 42, source/template/_theme.scss */
 .reveal {
   font-family: "Gotham-Book", "Helvetica", Arial, sans-serif;
@@ -2200,7 +2211,7 @@ html {
 /*********************************************
  * HEADERS
  *********************************************/
-/* line 67, source/template/_theme.scss */
+/* line 72, source/template/_theme.scss */
 .reveal h1,
 .reveal h2,
 .reveal h3,
@@ -2270,7 +2281,7 @@ html {
 }
 
 /* line 101, source/template/_theme.scss */
-.blue {
+.blue, .event__title {
   color: #01A9B4 !important;
 }
 
@@ -2299,27 +2310,32 @@ html {
   color: #333333 !important;
 }
 
+/* line 107, source/template/_theme.scss */
+.grey--light, .event__title small {
+  color: #666 !important;
+}
+
 /*********************************************
  * LINKS
  *********************************************/
-/* line 113, source/template/_theme.scss */
+/* line 114, source/template/_theme.scss */
 .reveal a:not(.image) {
+  -webkit-transition: color 0.15x ease;
   -moz-transition: color 0.15x ease;
   -o-transition: color 0.15x ease;
-  -webkit-transition: color 0.15x ease;
   transition: color 0.15x ease;
   color: #01a9b4;
   text-decoration: none;
 }
 
-/* line 118, source/template/_theme.scss */
+/* line 119, source/template/_theme.scss */
 .reveal a:not(.image):hover {
   color: #f9b8bb;
   text-shadow: none;
   border: none;
 }
 
-/* line 125, source/template/_theme.scss */
+/* line 126, source/template/_theme.scss */
 .reveal .roll span:after {
   color: #fff;
   background: #01a9b4;
@@ -2328,19 +2344,19 @@ html {
 /*********************************************
  * IMAGES
  *********************************************/
-/* line 135, source/template/_theme.scss */
+/* line 136, source/template/_theme.scss */
 .reveal section img {
   margin: 15px;
   background: rgba(255, 255, 255, 0.12);
   border: 4px solid #eeeeee;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
-  -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
 
-/* line 145, source/template/_theme.scss */
+/* line 146, source/template/_theme.scss */
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
   border-color: #01a9b4;
@@ -2350,46 +2366,46 @@ html {
 /*********************************************
  * NAVIGATION CONTROLS
  *********************************************/
-/* line 157, source/template/_theme.scss */
+/* line 159, source/template/_theme.scss */
 .reveal .controls .navigate-left,
 .reveal .controls .navigate-left.enabled {
   border-right-color: #01a9b4;
 }
 
-/* line 162, source/template/_theme.scss */
+/* line 164, source/template/_theme.scss */
 .reveal .controls .navigate-right,
 .reveal .controls .navigate-right.enabled {
   border-left-color: #01a9b4;
 }
 
-/* line 167, source/template/_theme.scss */
+/* line 169, source/template/_theme.scss */
 .reveal .controls .navigate-up,
 .reveal .controls .navigate-up.enabled {
   border-bottom-color: #01a9b4;
 }
 
-/* line 172, source/template/_theme.scss */
+/* line 174, source/template/_theme.scss */
 .reveal .controls .navigate-down,
 .reveal .controls .navigate-down.enabled {
   border-top-color: #01a9b4;
 }
 
-/* line 177, source/template/_theme.scss */
+/* line 178, source/template/_theme.scss */
 .reveal .controls div.navigate-left.enabled:hover {
   border-right-color: #f9b8bb;
 }
 
-/* line 181, source/template/_theme.scss */
+/* line 182, source/template/_theme.scss */
 .reveal .controls div.navigate-right.enabled:hover {
   border-left-color: #f9b8bb;
 }
 
-/* line 185, source/template/_theme.scss */
+/* line 186, source/template/_theme.scss */
 .reveal .controls div.navigate-up.enabled:hover {
   border-bottom-color: #f9b8bb;
 }
 
-/* line 189, source/template/_theme.scss */
+/* line 190, source/template/_theme.scss */
 .reveal .controls div.navigate-down.enabled:hover {
   border-top-color: #f9b8bb;
 }
@@ -2397,24 +2413,24 @@ html {
 /*********************************************
  * PROGRESS BAR
  *********************************************/
-/* line 198, source/template/_theme.scss */
+/* line 199, source/template/_theme.scss */
 .reveal .progress {
   background: rgba(0, 0, 0, 0.2);
 }
 
-/* line 201, source/template/_theme.scss */
+/* line 202, source/template/_theme.scss */
 .reveal .progress span {
   background: #01a9b4;
+  -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -o-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
-  -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
 }
 
 /*********************************************
  * FOOTER
  *********************************************/
-/* line 212, source/template/_theme.scss */
+/* line 213, source/template/_theme.scss */
 .reveal footer {
   position: fixed;
   height: 40px;
@@ -2428,12 +2444,20 @@ html {
   background-repeat: no-repeat;
   background-size: auto 100%;
 }
-/* line 226, source/template/_theme.scss */
+/* line 227, source/template/_theme.scss */
 .reveal .copyright {
   margin: 15px 5px 0 100px;
   font-style: italic;
 }
-/* line 230, source/template/_theme.scss */
+/* line 231, source/template/_theme.scss */
 .reveal .copyright a img {
   vertical-align: middle;
+}
+
+/*********************************************
+ * EVENT
+ *********************************************/
+/* line 241, source/template/_theme.scss */
+.event__title {
+  text-transform: uppercase !important;
 }
