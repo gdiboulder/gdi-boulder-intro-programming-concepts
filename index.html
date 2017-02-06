@@ -1,444 +1,795 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
+<head>
+    <meta charset="utf-8">
 
-	<head>
-		<meta charset="utf-8">
+    <title>Girl Develop It </title>
 
-		<title>Intro to Programming Concepts for True Beginners</title>
+    <meta name="description" content="Intro to Programming (for true beginners!)">
+    <meta name="author" content="Girl Develop It Ann Arbor">
 
-		<meta name="description" content="">
-		<meta name="author" content="Boulder Girl Develop It">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-		<meta name="apple-mobile-web-app-capable" content="yes" />
-		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <link rel="shortcut icon" href="favicon.ico">
 
-		<link rel="stylesheet" href="reveal/css/reveal.css">
-		<link rel="stylesheet" href="reveal/css/theme/gdilight.css" id="theme">
+    <link rel="stylesheet" href="css/reveal.min.css">
+    <link rel="stylesheet" href="css/theme/gdiaa.css" id="theme">
+    <link rel="stylesheet" href="lib/css/rainbow.css">
+    <link rel="stylesheet" href="css/print/pdf.css" media="print">
+    <link rel="stylesheet" href="css/site.css">
 
-		<!-- For syntax highlighting -->
-		<!-- light editor--><link rel="stylesheet" href="lib/css/light.css">
-		<!-- dark editor<link rel="stylesheet" href="reveal/lib/css/dark.css">-->
+    <script src="lib/js/head.min.js"></script>
 
-		<!-- If use the PDF print sheet so students can print slides-->
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="reveal">
+        <!-- Any section element inside of this container is displayed as a slide -->
+        <div class="slides">
 
-		<link rel="stylesheet" href="reveal/css/print/pdf.css" type="text/css" media="print">
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
-		<!--[if lt IE 9]>
-		<script src="lib/js/html5shiv.js"></script>
-		<![endif]-->
-	</head>
+            <!-- Title -->
+            <section>
+                <img src="images/gdi_logo_badge.png" class="img--bare" height="400" />
+                <div class="box--small">
+                    <h3><span class="blue">Intro to Programming Concepts</span></h3>
+                    <h4><span class="green">For True Beginners!</span></h4>
+                    <p class="copy--xsmall">Ronda Bergman &nbsp; | &nbsp; @rabergman &nbsp; | &nbsp; @gdiannarbor &nbsp; | &nbsp; #gdia2</p>
+                </div>
+            </section>
 
-	<body>
+            <!-- Introduce Instructor -->
+            <section>
+                <div class="box--small">
+                    <h3 class="event__title">About Me</h3>
+                    <img src="images/ronda1.jpg" class="img--bare box" width="254" />
+                    <p><small>Ronda Bergman &nbsp; | &nbsp; @rabergman</small></p>
+                </div>
+            </section>
 
-		<div class="reveal">
+            <section>
 
-			<!-- Any section element inside of this container is displayed as a slide -->
-			<div class="slides">
-        <!-- Opening -->
-				<section>
-					<img src = "images/gdi_logo_badge.png">
-					<h3>Introduction to Programming Concepts (for True Beginners!)</h3>
-				</section>
-				<section>
-					<h2>Thanks to our sponsor:</h2>
-					<img src="images/sponsors/sendgrid.jpg" style="border:none; width: 400px;"/>
-				</section>
-				<section>
-					<h2>Thanks to our sponsor:</h2>
-					<img src="images/sponsors/salesforce.jpg" style="border:none; width: 400px;"/>
-				</section>
+                <!-- What we will cover today -->
+                <section>
+                    <h3>What we will cover today</h3>
+                    <ul class="list--xtall box--small copy--small">
+                        <li>Why C#?</li>
+                        <li>What is programming?</li>
+                        <li>Getting started...</li>
+                        <li>Variables</li>
+                        <li>Statements and Error Messages</li>
+                    </ul>
+                </section>
 
-				<section>
-					<h3>Class notes</h3>
-					<ul>
-						<li>Class slides (streamlined): <a href="http://gdiboulder.github.io/gdi-boulder-intro-programming-concepts/">http://gdiboulder.github.io/gdi-boulder-intro-programming-concepts/</a></li>
-					</ul>
-				</section>
+                <!-- Why C#? -->
+                <section>
+                    <h3>Why C#?</h3><br />
+                    <ul>
+                        <li>One word - Microsoft</li>
+                        <li>Visual Studio (now free)</li>
+                        <li>Web, desktop, server</li>
+                    </ul>
+                </section>
 
-				<section>
-					<h2>A few quick announcements</h2>
-				</section>
+                <!-- Who uses C# -->
+                <section>
+                    <h3>Who uses C#</h3><br />
+                    <ul>
+                        <li>Microsoft (of course)</li>
+                        <li>Domino's</li>
+                        <li>Little Caesars</li>
+                        <li>Quicken Loans</li>
+                        <li>Fathead</li>
+                        <li>Many more...</li>
+                    </ul>
+                </section>
 
-				<section>
-					<h3>Upcoming Events</h3>
-					<p>Introduction to Javascript &amp; jQuery</p>
-					<p><strong>Saturday, July 26, 2014</strong></p>
-					<p>Simple Energy</p>
-				</section>
-				<!-- Welcome-->
-				<section class="hide-pdf">
-					<h3>Welcome!</h3>
-					<div class = "left-align">
-					<p>Girl Develop It is here to provide affordable and accessible programs to learn software through mentorship and hands-on instruction.</p>
-					<p class ="green">Some "rules"</p>
-					<ul>
-						<li>We are here for you!</li>
-						<li>Every question is important</li>
-						<li>Help each other</li>
-						<li>Have fun</li>
-					</ul>
-					</div>
-				</section>
+                <!-- Is C# the same thing as .NET? -->
+                <section>
+                    <h3>Is C# the same thing as .NET?</h3><br />
+                    <ul>
+                        <li>Short answer - <strong>No</strong></li>
+                        <li>.NET is, a library of code that .NET languages can talk to</li>
+                        <li>C# is just one of those languages</li>
+                        <li>Other .NET languages - VB.NET, Managed C++, F#</li>
+                        <li>And <a href="https://en.wikipedia.org/wiki/Category:.NET_programming_languages">more...</a></li>
+                    </ul>
+                </section>
 
-				<section class="hide-pdf">
-					<h3>Your instructors</h3>
-						<ul>
-							<li>Teri Charles</li>
-							<li>Jen Skiendzielewski</li>
-						<!--<li>Bullet Point</li>
-							<li>Twitter: <a href="http://twitter.com/[TWITTER]">@[TWITTER]</a></li>
-							<li>E-mail: <a href="mailto:[EMAIL]">[EMAIL]</a></li>-->
-						</ul>
-				</section>
+                <!-- What about other languages? -->
+                <section>
+                    <h3>What about other languages?</h3>
+                    <p class="box--small copy--small">Is what we will learn tonight is applicable to other programming languages?</p>
+                    <ul>
+                        <li><strong>Yes!</strong> Absolutely</li>
+                        <li>What we learn tonight can be applied to any modern programming language</li>
+                        <li>Things might have slightly different names but will basically all work in the same manner</li>
+                        <li>
+                            For Example
+                            <ul>
+                                <li>.NET - <span class="blue-code">bool</span></li>
+                                <li>Java - <span class="blue-code">boolean</span></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
 
-			<section>
-				<h3>Computer Programs</h3>
-				<ul>
-					<li>Computer programs are everywhere.</li>
-					<ul>
-						<li>Run parts of your car.</li>
-					    <li>Let you check your email.</li>
-					    <li>Underlie that favorite app on your smartphone.</li>
-					</ul>
-					<li> But what are they, really?</li>
-				<ul/>
-			</section>
+            </section>
 
-			<section>
-				<h3>What is a Computer Program?</h3>
-				<ul>
-					<li>At its core, a computer program is a way of getting something done.</li>
-				</ul>
-			</section>
+            <section>
 
-			<section>
-				<h3>Programming Languages</h3>
-				<ul>
-					<li>A programming language is basically a set of strings (letters, numbers, commands) that is changed into machine code that the computer can understand.</li> 
-				</ul>
-			</section>
+                <!-- What is programming? -->
+                <section>
+                    <h3>What is programming?</h3>
+                    <ul>
+                        <li>Enabling a computer to do a task</li>
+                        <li>A program is made of one or more files of code, each solve part of the overall task</li>
+                        <li>Programming code is human readable but also needs a form that the computer can run directly.
+                            This form is not human readable.</li>
+                        <li>To create the code the computer can understand
+                            we <a href="https://en.wikipedia.org/wiki/Compiler">compile</a>
+                            the code in C#. Other languages use different compilers
+                            or <a href="http://en.wikipedia.org/wiki/Interpreter_(computing)">interpreters</a>.
+                        </li>
+                    </ul>
+                </section>
 
-			<section>
-				<h3>Programming Languages</h3>
-				<!--<p>For example:</p>-->
-				<ul>
-					<li>To develop websites, you might use HTML, JavaScript, Python, Java, PHP.</li>
-					<li>To create databases and move information in and out of them, you might use MySQL, SQL, Dbase.</li>
-					<li>To write applications like Microsoft Word or Adobe Acrobat, you might use C++, Java, Visual Basic</li>
-				</ul>
-			</section>
+                <!-- Getting Started -->
+                <section>
+                    <h3>Getting Started...</h3>
+                    <ul>
+                        <li>Visual Studio (not today)</li>
+                        <li>IDE? (Interactive Development Environment)</li>
+                        <li>REPL (today)</li>
+                        <li><a href="http://repl.it/languages/csharp">repl.it</a></li>
+                    </ul>
+                </section>
 
-			<section>
-				<h3>Important to Remember</h3>
-				<ul>
-					<li>One of the most important things to remember is that when programming, you are doing something for people, and that the computer and the program mediate that. <a href="http://www.developsense.com" target-"_blank">~Michael Bolton</a> (Software Tester extraordinaire)</li>
-				</ul>
-			</section>
+            </section>
 
-			<section>
-				<h3>Computers are dumb</h3>
-				<ul>
-					<li>Computers can only do what they have instructions for-- and they take those instructions VERY literally.</li>
-				</ul>
-			</section>
+            <section>
 
-			<section>
-				<h3>Demonstration</h3>
-			</section>
+                <!-- Let's Develop It! -->
+                <section>
+                    <h3>Let's Develop It!</h3>
+                    <p class="box--small copy--small">Let's open repl.it and run our first program!</p>
+                    <ul>
+                        <li>Open a Browser (<strong>Chrome</strong>/IE/Safari)</li>
+                        <li><a href="http://repl.it" target="_blank">repl.it</a> - An online compiler</li>
+                        <li>Select C#</li>
+                        <li>You should see this:</li>
+                    </ul>
+                    <img src="images/repl.png" class="img--bare" height="350" />
+                </section>
 
-			<section>
-				<h3>Memory</h3>
-				<ul>
-					<li>A computer doesn’t have a memory like we do. Sure, a computer has “memory”-- In fact it has a couple of kinds...</li>
-				</ul>
-			</section>
+                <!-- Let's Learn the Parts -->
+                <section>
+                    <h3>Let's Learn the Parts</h3>
+                    <ul>
+                        <li><span class="blue-code">using</span> System;</li>
+                        <li><span class="blue-code">class</span> MainClass {</li>
+                        <li><span class="blue-code">public static void</span> Main (<span class="blue-code">string</span>[] args) {</li>
+                        <li>Console.WriteLine ("<span class="green-code">Hello World</span>");</li>
+                    </ul>
+                    <br /><br />
+                    <img src="images/repl.png" class="img--bare" height="350" />
+                </section>
 
-			<section>
-				<h3>Kinds of Memory - ROM</h3>
-				<ul>
-					<li><b>ROM</b> or <b>Read-only memory</b> is the more permanent kind.</li>
-				</ul>
-			</section>
+                <!-- Let's Develop It! -->
+                <section>
+                    <h3>Let's Run It!</h3>
+                    <img src="images/replRun.png" class="img--bare" height="350" />
+                </section>
 
-			<section>
-				<h3>Kinds of Memory - Storage</h3>
-				<ul>
-					<li>More permanent, more long term memory.</li>
-				<ul>
-			</section>
+            </section>
 
-			<section>
-				<h3>Kinds of Memory - RAM</h3>
-				<ul>
-					<li><b>RAM</b> or <b>Random-access memory</b> is less permanent.</li>
-				</ul>
-			</section>
+            <section>
 
-			<section>
-				<h3>Programming structures</h3>
-				<ul>
-					<li>No matter what programming language you use, the structures that are available are fairly similar.</li>
-					<ul>
-						<li>Variables</li>
-						<li>Logical structures:</li>
-						<ul>
-							<li>If/Else statements</li>
-							<li>Loops</li>
-						</ul>
-					</ul>
-				</ul>
-			</section>
+                <!-- Variables -->
+                <section>
+                    <h3>Variables</h3>
+                    <p class="box--small copy--small">What are Variables?</p>
+                    <ul>
+                        <li>Variables are used to store data</li>
+                        <li>Among other things, variables are used to represent something that can't be known until the program is run</li>
+                        <li>Variables alway have a "data type" (in C#)</li>
+                        <li>The variable type defines what you can or cannot do to a variable</li>
+                    </ul>
+                </section>
 
-			<section>
-				<h3>Variables</h3>
-				<ul>
-					<li>A variable is essentially a storage container for information.</li>
-					<li>Examples:</li>
-						<ul>
-							<li>age = 28</li>
-							<li>color = blue</li>
-						</ul>
-					<li>There are different kinds of variables based on the information that you want to store.</li>
-				</ul>
-			</section>
+                <!-- Data Types -->
+                <section>
+                    <h3>Data Types</h3>
+                    <br />
+                    <ul>
+                        <li>
+                            String (<span class="blue-code">string</span>) - alphabetic, numerical,
+                            and special characters ["<span class="green-code">This is a string with numbers 1, 2, 3 &amp; 4</span>"]
+                        </li>
+                        <li>Integer (<span class="blue-code">int</span>) - Whole numbers [<span class="blue-code">5</span>]</li>
+                        <li>Double (<span class="blue-code">double</span>) - Numbers with a decimal point [<span class="blue-code">5.5</span>]</li>
+                        <li>Boolean (<span class="blue-code">bool</span>) - True or False [<span class="blue-code">true</span>]</li>
+                    </ul>
+                </section>
 
-			<section>
-				<h3>Integer Variables</h3>
-				<ul>
-					<li>Integer variables are used to store positive or negative whole numbers.</li>
-				</ul>
-			</section>
+                <!-- Let's Develop It! -->
+                <section>
+                    <h3>Let's Develop It!</h3>
+                    <p class="box--small copy--small">Create some variables, assign values and display the values</p>
+                    <img src="images/variables.png" class="img--bare" height="450" />
+                </section>
 
-			<section>
-				<h3>String Variables</h3>
-				<ul>
-					<li>String variables are used to store text.</li>
-				</ul>
-			</section>
+                <!-- Let's Develop It! -->
+                <section>
+                    <h3>Let's Develop It!</h3>
+                    <p class="box--small copy--small">The results! (hopefully)</p>
+                    <img src="images/variables1.png" class="img--bare" height="450" />
+                </section>
 
-			<section>
-				<h3>Numbers as strings</h3>
-				<ul>
-					<li>You <b>can</b> store a number as a string variable.</li>
-					<li>If you store a number as a string variable, you can’t use it in any math calculations.</li>
-				</ul>
-			</section>
+                <!-- Errors -->
+                <section>
+                    <h3>Errors</h3>
+                    <p class="box--small copy--small">Errors happen, it's okay!</p>
+                    <img src="images/error.png" class="img--bare" height="450" />
+                </section>
 
-			<section>
-				<h3>Boolean Variables</h3>
-				<ul>
-					<li>Boolean variables are used to store the value <b>TRUE</b> or <b>FALSE</b> (yes or no).</li>
-				</ul>
-			</section>
+                <!-- More Errors -->
+                <section>
+                    <h3>More Errors</h3>
+                    <br />
+                    <ul>
+                        <li>
+                            <span class="pink-results">
+                                main.cs(12,4): error CS1525: Unexpected
+                                symbol `double' Compilation failed: 1 error(s), 0 warnings
+                            </span>
+                        </li>
+                        <li>
+                            <span class="pink-results">
+                                main.cs(9,17): error CS0266: Cannot
+                                implicitly convert type `double' to `int'. An explicit
+                                conversion exists (are you missing a cast?) Compilation
+                                failed: 1 error(s), 0 warnings
+                            </span>
+                        </li>
+                        <li>The compiler will try to tell you what is wrong</li>
+                        <li>It's not always very good at figuring it out</li>
+                    </ul>
+                </section>
 
-			<section>
-				<h3>Logical structures</h3>
-				<ul>
-					<li>Now that you can store data, you probably want to do something with it.</li>
-				</ul>
-			</section>
+            </section>
 
-			<section>
-				<h3>Operators</h3>
-				<ul>
-					<li>Operators are words or symbols that let you compare, combine, or evaulate something to produce an output.</li>
+            <section>
 
-					<li>A few xamples:
-						<ul>
-							<li>= (equal to)</li>
-							<li>> (greater than)</li>
-							<li>< (less than)</li>
-							<li>>= (greater than or equal to)</li>
-							<li>< = (less than or equal to)</li>
-							<li>!= (not equal)</li>	
-							<li>and</li>
-							<li>or</li>						
-						</ul>
-				</ul>
-			</section>			
+                <!-- Operators -->
+                <section>
+                    <h3>Operators</h3>
+                    <p class="box--small copy--small">Tells the compiler to perform a specific action (function)</p>
+                    <ul>
+                        <li>
+                            Assignment
+                            <ul>
+                                <li>=</li>
+                            </ul>
+                        </li>
+                        <li>
+                            Arithmetic
+                            <ul>
+                                <li>+</li>
+                                <li>-</li>
+                                <li>*</li>
+                                <li>/</li>
+                                <li>%</li>
+                                <li>++</li>
+                                <li>--</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
 
-			<section>
-				<h3>If/Then/Else</h3>
-				<ul>
-					<li>If/Then/Else statements evaluate a condition and take actions based on the result.</li>
-				</ul>
-			</section>
+                <!-- Operators -->
+                <section>
+                    <h3>Operators</h3>
+                    <p class="box--small copy--small">Using Operators</p>
+                    <div>
+                        <pre>
+                        <code class="cs" contenteditable="true">
+                                using System;
+                                class MainClass
+                                {
+                                    public static void Main (string[] args)
+                                    {
+                                        int sum = 5 + 4;
+                                        Console.WriteLine(sum);
+                                        int myNum = 5;
+                                        int anotherNum = 4;
 
-			<section>
-				<h3>Let's Do Some If/Then/Else! (1/4)</h3>
-			</section>
+                                        int newSum = myNum + anotherNum;
+                                        Console.WriteLine(newSum);
+                                    }
+                                }
+                            </code>
+                        </pre>
+                    </div>
+                </section>
 
-			<section>
-				<h3>If/Then/Else Excercises (2/4)</h3>
-				<ul>
-					<li>For this excercise, we're using <b>Ruby</b>.</li>
-					<li>Go to <a href="http://repl.it/languages" target="_blank">repl.it,</a> which is an online terminal to practice writing code.</li>
-					<li>Choose 'Ruby'.</li>
-				</ul>
-			</section>
+                <!-- Let's Develop It! -->
+                <section>
+                    <h3>Let's Develop It!</h3>
+                    <ul>
+                        <li>Create 2 variables, name them anything you want<br />(watch out for reserved words)</li>
+                        <li>Assign values to both variables<br />(be sure you use the right type)</li>
+                        <li>Perform an operation on the variables</li>
+                        <li>Write out the results</li>
+                        <li>What happens if your variables are of type <span class="blue-code">string</span>?</li>
+                    </ul>
+                </section>
 
-			<section>
-				<h3>IF Excercise (3/4)</h3>
-				<pre><code="html">
-cart_total = 8
+                <!-- More Operators -->
+                <section>
+                    <h3>More Operators (Boolean)</h3>
+                    <p class="box--small copy--small">The following chart shows the various Boolean operators</p>
+                    <p class="box--small copy--small">Boolean operators always evaluate to either <span class="blue-code">true</span> or <span class="blue-code">false</span></p>
+                    <table class="copy--xsmall" style="width: auto; margin: 0 auto;">
+                        <tbody>
+                            <tr>
+                                <td style="width: 200px;"><code>a == b</code></td>
+                                <td>a is equal to b</td>
+                            </tr>
+                            <tr>
+                                <td style="width: 200px;"><code>a != b</code></td>
+                                <td>a is not equal to b</td>
+                            </tr>
+                            <tr>
+                                <td style="width: 200px;"><code>a &lt; b</code></td>
+                                <td>a is less than b</td>
+                            </tr>
+                            <tr>
+                                <td style="width: 200px;"><code>a &gt; b</code></td>
+                                <td>a is greater than b</td>
+                            </tr>
+                            <tr>
+                                <td style="width: 200px;"><code>a &lt;= b</code></td>
+                                <td>a is less than or equal to b</td>
+                            </tr>
+                            <tr>
+                                <td style="width: 200px;"><code>a &gt;= b</code></td>
+                                <td>a is greater than or equal to b</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <br />
+                    <p class="copy--xsmall">Remember: = does not equal ==</p>
+                </section>
 
-if cart_total > 2
-    print "You get free shipping!"
-end
-				</code></pre>
-				<ul>
-					<li>Change the numbers to see what happens.</li>
-					<li>Change the operators (greater than, less than, etc.)</li>
-				</ul>
-			</section>
+                <!-- Boolean Operators -->
+                <section>
+                    <h3>Boolean Operators</h3>
+                    <p class="box--small copy--small">Using Boolean Operators</p>
+                    <div>
+                        <pre>
+                        <code class="cs" contenteditable="true">
+                                using System;
+                                class MainClass
+                                {
+                                    public static void Main (string[] args)
+                                    {
+                                        int num1 = 5;
+                                        int num2 = 5;
+                                        Console.WriteLine(num1 == num2);
+                                        Console.WriteLine(num1 != num2);
+                                        Console.WriteLine(num1 > num2);
+                                        Console.WriteLine(num1 >= num2);
+                                    }
+                                }
+                            </code>
+                        </pre>
+                    </div>
+                </section>
 
-			<section>
-				<h3>IF/THEN/ELSE Excercise (4/4)</h3>
-				<pre><code="html">
-cart_total = 8
+                <!-- Let's Develop It! -->
+                <section>
+                    <h3>Let's Develop It!</h3>
+                    <ul>
+                        <li>Create 2 variables</li>
+                        <li>Assign values to both variables</li>
+                        <li>Write out if they are equal, <strong>not</strong> equal, greater than or less than</li>
+                        <li>What happens if your variables are of type <span class="blue-code">string</span>?</li>
+                    </ul>
+                </section>
 
-if cart_total > 2
-    print "You get free shipping!"
-else
-    print "You'll have to pay for shipping."
-end
-				</code></pre>
-				<ul>
-					<li>Change the numbers to see what happens.</li>
-					<li>Change the operators (greater than, less than, etc.)</li>
-					<li>Change the string statements.</li>
-				</ul>
-			</section>
+            </section>
 
-			<section>
-				<h3>Loops</h3>
-				<ul>
-					<li>A loop is a list of instructions that repeats until a certain condition is reached.</li>
-				</ul>
-			</section>
+            <section>
 
-			<section>
-				<h3>Let's Do Some Loops! (1/4)</h3>
-			</section>
+                <!-- Conditionals 1 -->
+                <section>
+                    <h3>Conditionals</h3>
+                    <p class="box--small copy--small">
+                        When we want different code to execute depending on certain criteria, we use a <strong>conditional</strong>
+                    </p>
+                    <div>
+                        <pre>
+                        <code class="cs" contenteditable="true">
+                                using System;
+                                class MainClass
+                                {
+                                    public static void Main (string[] args)
+                                    {
+                                        int sum = 5 + 4;
+                                        Console.WriteLine(sum);
 
-			<section>
-				<h3>Loop Excercise (2/4)</h3>
-				<ul>
-					<li>For this excercise, we're using Python.</li>
-					<li>Go to <a href="http://repl.it/languages" target="_blank">repl.it,</a> which is an online terminal to practice writing code.</li>
-					<li>Choose 'Python'.</li>
-				</ul>
-			</section>
+                                        if (sum > 8)
+                                        {
+                                            Console.WriteLine("Greater than 8!");
+                                        }
+                                    }
+                                }
+                            </code>
+                        </pre>
+                    </div>
+                </section>
 
-			<section>
-				<h3>Loop (while) Excercise (3/4)</h3>
-				<pre><code="html">
-papers_to_deliver = 65
+                <!-- Conditionals 2 -->
+                <section>
+                    <h3>Conditionals</h3>
+                    <div>
+                        <pre>
+                        <code class="cs" contenteditable="true">
+                                using System;
+                                class MainClass
+                                {
+                                    public static void Main (string[] args)
+                                    {
+                                        int sum = 5 + 4;
+                                        Console.WriteLine(sum);
 
-while papers_to_deliver > 0:
-    print papers_to_deliver
-    papers_to_deliver = papers_to_deliver - 1
-print 'Out of papers! Go home!';
-				</code></pre>
-				<ul>
-					<li>Change the numbers to see what happens.</li>
-					<li>Change the operators (greater than, less than, etc.)</li>
-					<li>Change the string statements.</li>
-					<li>See the next slide that will explain what is happening in the loop (via a diagram).</li>
-				</ul>
-			</section>
+                                        if (sum == 9)
+                                        {
+                                            Console.WriteLine("The number is 9!");
+                                        }
+                                    }
+                                }
+                            </code>
+                        </pre>
+                    </div>
+                </section>
 
-			<section>
-				<img src="images/loop-illustration.png" />
-			</section>
+                <!-- Conditionals 3 -->
+                <section>
+                    <h3>Conditionals</h3>
+                    <p class="box--small copy--small">
+                        What if we want to do something when the <strong>"if"</strong> is false?
+                    </p>
+                    <div>
+                        <pre>
+                        <code class="cs" contenteditable="true" style="min-height:415px">
+                                using System;
+                                class MainClass
+                                {
+                                    public static void Main (string[] args)
+                                    {
+                                        int sum = 5 + 5;
+                                        Console.WriteLine(sum);
 
-			<section>
-				<h3>Beware the Infinite Loop!</h3>
-				<ul>
-					<li>An infinite loop is a loop that will never meet the condition to stop. It will keep going until it's used up all your computer's (or server's) memory (RAM). This is bad!</li>
-					<li>Example: In the While loop:</li>
-						<ul>
-							<li>If the "papers_to_deliver = papers_to_deliver - 1" line was missing, it would keep looping because 65 is always greater than 0!</li>
-							<li>If "papers_to_deliver = papers_to_deliver - 1" was changed to "+ 1", it would keep adding 1 to 65 forever!</li>
-						</ul>
-				</ul>
-			</section>
+                                        if (sum == 9)
+                                        {
+                                            Console.WriteLine("The number is 9!");
+                                        }
+                                        else
+                                        {
+                                            Console.WriteLine("The number is NOT 9!");
+                                        }
+                                    }
+                                }
+                            </code>
+                        </pre>
+                    </div>
+                </section>
 
-			<section>
-				<h3>Project Implementation <br> Example</h3>
-				<ul>
-					<li>When companies implement a new program, they take various things into consideration:</li>
-				</ul>
-				<ol>
-					<li>Possible languages to use:
-					<ul>
-						<li>Python: computer program</li>
-						<li>SQL: manage the data</li>
-						<li>HTML/CSS: web development to share on the Internet</li>
-					</ul>
-					<li>Programming structures:</li>
-					<ul>
-						<li>Variables: place to store the information such as, colors, amounts, etc.</li>
-						<li>Detailed steps to tell the computer what to do.</li>
-						<li>Loops: Instructions that keeps repeating as neccessary.</li>
-					</ul>
-				</ol>
-			</section>
+                <!-- Conditionals -->
+                <section>
+                    <h3>Conditionals</h3>
+                    <p class="box--small copy--small">Using Conditionals with strings</p>
+                    <div>
+                        <pre>
+                        <code class="cs" contenteditable="true" style="min-height:415px">
+                                using System;
+                                class MainClass
+                                {
+                                    public static void Main (string[] args)
+                                    {
+                                        string myString1 = "These are some words";
+                                        string myString2 = "THESE ARE SOME WORDS";
 
-			<section>
-				<h3>Coding Classes Resources (most are free) and Books</h3>
-				<ul>
-					<li>Code year:<a href="http://www.codecademy.com/tracks/code-year" target="_blank">www.codecademy.com/tracks/code-year</a></li>
-					<li>Codecademy: <a href="http://www.codecademy.com" target="_blank">www.codecademy.com</a></li>
-					<li>Coursera: <a href="https://www.coursera.org" target="_blank">www.coursera.org</a></li>
-					<li>Kahn Academy: <a href="https://www.khanacademy.org" target="_blank">www.khanacademy.org</a></li>
-					<li>Skillcrush: <a href="http://skillcrush.com" target="_blank">www.skillcrush.com</a></li>
-					<li>Udacity: <a href="https://www.udacity.com" target="_blank">www.udacity.com</a></li>
-					<li>Udemy: <a href="https://www.udemy.com" target="_blank">www.udemy.com</a></li>
-					<li>And of course, <a href="http://www.girldevelopit.com/chapters/boulder" target="_blank">GDIBoulder!</a></li>
-					<li> <a href="http://www.amazon.com/Program-Second-Edition-Facets-Series/dp/1934356360" target="_blank">Learn to Program</a>, by Chris Pine</li>
-					<li> <a href="http://www.amazon.com/Everyday-Scripting-Ruby-Teams-Testers/dp/0977616614/ref=sr_1_1?s=books&ie=UTF8&qid=1405369294&sr=1-1&keywords=everyday+scripting+with+ruby" target="_blank">Everyday Scripting in Ruby</a>, by Brian Marick</li>
-				</ul>
-			</section>
-</div>
+                                        if (myString1 == myString2)
+                                        {
+                                            Console.WriteLine("They are the same!");
+                                        }
+                                        else
+                                        {
+                                            Console.WriteLine("They are different!");
+                                        }
+                                    }
+                                }
+                            </code>
+                        </pre>
+                    </div>
+                </section>
 
+                <!-- Let's Develop It! -->
+                <section>
+                    <h3>Let's Develop It!</h3>
+                    <ul>
+                        <li>Create 2 variables</li>
+                        <li>Assign the same value to both variables<br />(be sure you use the right type)</li>
+                        <li>Compare the variables</li>
+                        <li>Write out the results of the comparison</li>
+                        <li>Assign different values to the variables</li>
+                        <li>Compare the variables</li>
+                        <li>Write out the results of the comparison</li>
+                    </ul>
+                </section>
 
-  		<footer>
-        <div class="copyright">
-          Introduction to Programming Concepts (for True Beginners!) &hearts; Girl Develop It Boulder
-          <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/3.0/80x15.png" /></a>
+            </section>
+
+            <section>
+
+                <!-- Logical Operators -->
+                <section>
+                    <h3>Logical Operators</h3>
+                    <p class="box--small copy--small">Allows us to compare more than 1 thing at a time</p>
+                    <ul>
+                        <li>&amp;&amp; - AND</li>
+                        <li>|| - OR</li>
+                    </ul>
+                </section>
+
+                <!-- Logical Operators -->
+                <section>
+                    <h3>Logical Operators</h3>
+                    <p class="box--small copy--small">Using Logical Operators</p>
+                    <div>
+                        <pre>
+                        <code class="cs" contenteditable="true">
+                                using System;
+                                class MainClass
+                                {
+                                    public static void Main (string[] args)
+                                    {
+                                        int num1 = 5;
+                                        int num2 = 5;
+                                        Console.WriteLine(num1 == 5 &amp;&amp; num2 == 5);
+                                        Console.WriteLine(num1 == 3 || num2 == 5);
+                                        Console.WriteLine(num1 > num2 || num1 > num2);
+                                    }
+                                }
+                            </code>
+                        </pre>
+                    </div>
+                </section>
+
+                <!-- Truth Table -->
+                <section>
+                    <h3>Truth Table</h3>
+                    <p class="box--small copy--small">The following chart shows the possible Logical operator results</p>
+                    <table class="copy--xsmall">
+                        <tbody>
+                            <tr>
+                                <th class="center-text">Value 1</th>
+                                <th class="center-text">Value 2</th>
+                                <th class="center-text">&amp;&amp; (AND)</th>
+                                <th class="center-text">|| (OR)</th>
+                            </tr>
+                            <tr>
+                                <td class="center-text">true</td>
+                                <td class="center-text">true</td>
+                                <td class="center-text">true</td>
+                                <td class="center-text">true</td>
+                            </tr>
+                            <tr>
+                                <td class="center-text">true</td>
+                                <td class="center-text">false</td>
+                                <td class="center-text">false</td>
+                                <td class="center-text">true</td>
+                            </tr>
+                            <tr>
+                                <td class="center-text">false</td>
+                                <td class="center-text">true</td>
+                                <td class="center-text">false</td>
+                                <td class="center-text">true</td>
+                            </tr>
+                            <tr>
+                                <td class="center-text">false</td>
+                                <td class="center-text">false</td>
+                                <td class="center-text">false</td>
+                                <td class="center-text">false</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+
+                <!-- Let's Develop It! -->
+                <section>
+                    <h3>Let's Develop It!</h3>
+                    <ul>
+                        <li>Create 2 boolean (<span class="blue-code">bool</span>) variables</li>
+                        <li>Set the values of both variables to be <span class="blue-code">true</span></li>
+                        <li>Write out the results of <span class="blue-code">&amp;&amp;</span></li>
+                        <li>Write out the results of <span class="blue-code">||</span></li>
+                        <li>Assign different values to the variables</li>
+                        <li>Write out the results of <span class="blue-code">&amp;&amp;</span></li>
+                        <li>Write out the results of <span class="blue-code">||</span></li>
+                    </ul>
+                </section>
+
+            </section>
+
+            <!-- LOOPS -->
+            <section>
+                <section>
+                    <h3>Iteration</h3>
+                    <p class="box--small copy--small">It is often useful to repeatedly perform a task</p>
+                    <p class="box--small copy--small">
+                        The repeated execution of a set of
+                        statements is called <strong>iteration</strong>
+                    </p>
+                    <div>
+                        <p class="box--small copy--small">One way to achieve this, is with the <strong>for</strong> loop.</p>
+                        <pre>
+                        <code class="cs" contenteditable>
+                                using System;
+                                class MainClass
+                                {
+                                    public static void Main (string[] args)
+                                    {
+                                        for (int i = 0; i < 10; i++)
+                                        {
+                                            Console.WriteLine("The number is " + i);
+                                        }
+                                    }
+                                }
+                            </code>
+                        </pre>
+                    </div>
+                </section>
+
+                <!-- Let's Develop It! -->
+                <section>
+                    <h3>Let's Develop It!</h3>
+                    <ul>
+                        <li>Create a <span class="blue-code">for</span> loop that loops a set number of times</li>
+                        <li>Write out <span style="font-style:italic">Number of times in this loop</span> [the loop counter]</li>
+                        <li>Create an <span class="blue-code">int</span> variable, assign it the value of 0</li>
+                        <li>Create a <span class="blue-code">for</span> loop that loops 5 times</li>
+                        <li>Inside the loop add the loop counter to the variable</li>
+                        <li>Write out the value of the variable</li>
+                    </ul>
+                </section>
+
+                <!-- LOOPS -->
+                <section>
+                    <h3>Iteration</h3>
+                    <p class="box--small copy--small">
+                        Another way to repeatedly call the same block of code
+                        - a <span class="blue-code">while</span> loop
+                    </p>
+                    <p class="box--small copy--small">
+                        <span class="blue-code">while</span> loops allow us
+                        to manipulate the counter variable inside the loop
+                    </p>
+                    <div>
+                        <pre>
+                        <code class="cs" contenteditable>
+                                using System;
+                                class MainClass
+                                {
+                                    public static void Main (string[] args)
+                                    {
+                                        int counter = 0;
+                                        while (counter < 5)
+                                        {
+                                            Console.WriteLine("The number is " + i);
+                                            counter++;
+                                        }
+                                    }
+                                }
+                            </code>
+                        </pre>
+                    </div>
+                    <br />
+                    <p class="copy--xsmall"><strong>BEWARE</strong> of the infinite loop!!</p>
+                </section>
+
+                <!-- Let's Develop It! -->
+                <section>
+                    <h3>Let's Develop It!</h3>
+                    <p class="box--small copy--small">Write a program to deliver newspapers!</p>
+                    <ul>
+                        <li>Create a variable to hold the number of papers to be delivered</li>
+                        <li><span class="">while</span> the number of papers to deliver is not zero</li>
+                        <li>Write out the number of papers left to be delivered</li>
+                        <li>Deliver a paper (subtract 1 from the number of papers to be delivered)</li>
+                        <li>After all the papers are delivered write out <span style="font-style:italic">All Done!</span></li>
+                    </ul>
+                </section>
+
+            </section>
+
+            <section>
+
+                <!-- Learn More -->
+                <section>
+                    <h3>Learn More</h3>
+                    <p class="box--small copy--small">Resources to continue your coding journey</p>
+                    <ul class="copy--small">
+                        <li><a href="http://www.meetup.com/Girl-Develop-It-Ann-Arbor/">Girl Develop It!</a></li>
+                         <li>Online
+                            <ul>
+                                <li><a href="http://learncs.org/">Learn C#</a></li>
+                                <li><a href="http://www.codecademy.com">Codecademy</a></li>
+                                <li><a href="http://www.coursera.org/">Coursera</a></li>
+                                <li><a href="http://www.khanacademy.org/">Khan Academy</a></li>
+                                <li><a href="http://www.edx.org/">edX</a></li>
+                                <li><a href="http://teamtreehouse.com/">Treehouse</a></li>
+                                <li><a href="http://dash.generalassemb.ly/">Dash</a></li>
+                                <li><a href="http://www.udemy.com/">Udemy</a></li>
+                                <li>
+                                    <a href="http://www.freecodecamp.com/">Free Code Camp</a><br />
+                                    * <a href="http://www.meetup.com/Free-Code-Camp-Ann-Arbor/">Ann Arbor Free Code Camp Meetup</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+
+            </section>
+
+            <!-- Closing Title -->
+            <section>
+                <img src="images/gdi_logo_badge.png" class="img--bare" height="400" />
+                <div class="box--small">
+                    <h3><span class="blue">Intro to Programming Concepts</span></h3>
+                    <h4><span class="green">For True Beginners!</span></h4>
+                    <p class="copy--xsmall">Ronda Bergman &nbsp; | &nbsp; @rabergman &nbsp; | &nbsp; @gdiannarbor &nbsp; | &nbsp; #gdia2</p>
+                </div>
+            </section>
         </div>
-      </footer>
-		</div>
 
+        <footer>
+            <div class="copyright">
+                Intro to Programming Concepts ~ GDI Ann Arbor ~
+                <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/3.0/80x15.png" /></a>
+            </div>
+        </footer>
+    </div>
 
-		<script src="reveal/lib/js/head.min.js"></script>
-		<script src="reveal/js/reveal.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/reveal.min.js"></script>
+    <script>
 
-		<script>
+        // Full list of configuration options available here:
+        // https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            rollingLinks: true,
+            theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+            transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/none
 
-			// Full list of configuration options available here:
-			// https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				controls: true,
-				progress: true,
-				history: true,
-
-				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/none
-
-				// Optional libraries used to extend on reveal.js
-				dependencies: [
-					{ src: 'reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: 'reveal/plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'reveal/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: 'reveal/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-					{ src: 'reveal/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
-				]
-			});
-
-		</script>
-
-	</body>
+            // Optional libraries used to extend on reveal.js
+            dependencies: [
+              { src: 'lib/js/classList.js', condition: function () { return !document.body.classList; } },
+              { src: 'plugin/markdown/showdown.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+              { src: 'plugin/markdown/markdown.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+              { src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } },
+              { src: 'plugin/zoom-js/zoom.js', async: true, condition: function () { return !!document.body.classList; } },
+              { src: 'plugin/notes/notes.js', async: true, condition: function () { return !!document.body.classList; } }
+            ]
+        });
+    </script>
+</body>
 </html>
